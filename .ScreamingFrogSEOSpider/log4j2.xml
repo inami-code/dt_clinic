@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 0a856bd0a8ce7d0725ffbd90190ff002c3e966df -->
+<Configuration monitorInterval="5">
+  <Appenders>
+    <Console name="CONSOLE" target="SYSTEM_OUT">
+    <PatternLayout charset="UTF-8">
+        <pattern> %d [%pid{???}] [%t] %-5p - %m%n</pattern>
+    </PatternLayout>
+    </Console>
+    <RollingFile name="TRACE_FILE" fileName="/Users/inagakimika/.ScreamingFrogSEOSpider/trace.txt" filePattern="/Users/inagakimika/.ScreamingFrogSEOSpider/trace.txt.%i">
+        <PatternLayout charset="UTF-8">
+            <pattern> %d [%pid{???}] [%t] %-5p - %m%n</pattern>
+        </PatternLayout>
+        <Policies>
+        <SizeBasedTriggeringPolicy size="10 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="3"/>
+    </RollingFile>
+    <RollingFile name="CRASH_FILE" fileName="/Users/inagakimika/.ScreamingFrogSEOSpider/crash.txt" filePattern="/Users/inagakimika/.ScreamingFrogSEOSpider/crash.txt.%i">
+        <PatternLayout charset="UTF-8">
+            <pattern> %d [%pid{???}] [%t] %-5p - %m%n</pattern>
+        </PatternLayout>
+        <Policies>
+        <SizeBasedTriggeringPolicy size="2 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="1"/>
+    </RollingFile>
+    <RollingFile name="HISTORY_FILE" fileName="/Users/inagakimika/.ScreamingFrogSEOSpider/history.log" filePattern="/Users/inagakimika/.ScreamingFrogSEOSpider/history.log.%i">
+        <PatternLayout charset="UTF-8">
+            <pattern>%m%n</pattern>
+        </PatternLayout>
+        <Policies>
+        <SizeBasedTriggeringPolicy size="100 KB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="5"/>
+    </RollingFile>
+  </Appenders>
+  <Loggers>
+    <Root level="INFO">
+      <AppenderRef ref="CONSOLE" level="TRACE"/>
+      <AppenderRef ref="TRACE_FILE" level="TRACE"/>
+      <AppenderRef ref="CRASH_FILE" level="FATAL"/>
+    </Root>
+    <Logger name="uk.co.screamingfrog.seospider.scheduler.history.d">
+      <AppenderRef ref="HISTORY_FILE" level="TRACE"/>
+    </Logger>
+  </Loggers>
+</Configuration>

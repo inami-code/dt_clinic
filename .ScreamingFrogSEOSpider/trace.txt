@@ -1,0 +1,26 @@
+2023-04-24 22:41:43,847 [1334] [JavaFX-Launcher] INFO  - Application Started
+2023-04-24 22:41:43,863 [1334] [JavaFX-Launcher] INFO  - Running: Screaming Frog SEO Spider 18.4
+2023-04-24 22:41:43,863 [1334] [JavaFX-Launcher] INFO  - Build: 0a856bd0a8ce7d0725ffbd90190ff002c3e966df
+2023-04-24 22:41:43,863 [1334] [JavaFX-Launcher] INFO  - Platform Info: Name 'Mac OS X' Version '13.1' Arch 'aarch64'
+2023-04-24 22:41:43,863 [1334] [JavaFX-Launcher] INFO  - Java Info: Vendor 'Eclipse Adoptium' URL 'https://adoptium.net/' Version '17.0.2' Home '/Applications/Screaming Frog SEO Spider.app/Contents/jre'
+2023-04-24 22:41:43,863 [1334] [JavaFX-Launcher] INFO  - VM args: -enableassertions, -XX:+UseG1GC, -XX:+UseStringDeduplication, -Djava.net.preferIPv4Stack=true, -Dio.grpc.netty.shaded.io.netty.native.tryPatchShadedId=false, -Xmx2g, -XX:ErrorFile=/Users/inagakimika/.ScreamingFrogSEOSpider/hs_err_pid1334.log
+2023-04-24 22:41:43,864 [1334] [JavaFX-Launcher] INFO  - Log File: /Users/inagakimika/.ScreamingFrogSEOSpider/trace.txt
+2023-04-24 22:41:43,864 [1334] [JavaFX-Launcher] INFO  - Fatal Log File: /Users/inagakimika/.ScreamingFrogSEOSpider/crash.txt
+2023-04-24 22:41:43,864 [1334] [JavaFX-Launcher] INFO  - Logging Status: OK
+2023-04-24 22:41:43,864 [1334] [JavaFX-Launcher] INFO  - Memory: Physical=16.0GB, Used=40MB, Free=33MB, Total=74MB, Max=2048MB, Using 1%
+2023-04-24 22:41:43,864 [1334] [JavaFX-Launcher] INFO  - Licence File: /Users/inagakimika/.ScreamingFrogSEOSpider/licence.txt
+2023-04-24 22:41:43,864 [1334] [JavaFX-Launcher] INFO  - Licence Status: Missing.
+2023-04-24 22:41:43,864 [1334] [JavaFX-Launcher] INFO  - Locale: ja_JP
+2023-04-24 22:41:43,864 [1334] [JavaFX-Launcher] INFO  - Time Zone: Japan Standard Time, offset=32400000
+2023-04-24 22:41:43,882 [1334] [JavaFX-Launcher] INFO  - Crash files found: 0
+2023-04-24 22:41:43,887 [1334] [JavaFX-Launcher] INFO  - Raw arguments:
+2023-04-24 22:41:43,891 [1334] [JavaFX-Launcher] INFO  - Parsed arguments:
+2023-04-24 22:41:43,899 [1334] [JavaFX-Launcher] INFO  - User has not accepted version 13 of the EULA yet.
+2023-04-24 22:41:47,967 [1334] [JavaFX-Launcher] INFO  - User did not accept the licence agreement, exiting.
+2023-04-24 22:41:47,968 [1334] [JavaFX-Launcher] INFO  - User invoked Application exit
+2023-04-24 22:41:47,968 [1334] [ShutdownHook] INFO  - Shutting down: Crash Handler
+2023-04-24 22:41:47,969 [1334] [ShutdownHook] INFO  - Shutting down: One Instance Checker
+2023-04-24 22:41:47,969 [1334] [ShutdownHook] INFO  - Shutting down: Exit File Deleter
+2023-04-24 22:41:47,969 [1334] [ShutdownHook] INFO  - Shutting down: Shutdown
+2023-04-24 22:41:47,969 [1334] [ShutdownHook] INFO  - Application Exited
+2023-04-24 22:41:47,969 [1334] [ShutdownHook] INFO  - Shutting down: Logger
