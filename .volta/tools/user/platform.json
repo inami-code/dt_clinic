@@ -1,0 +1,8 @@
+{
+  "node": {
+    "runtime": "18.17.0",
+    "npm": "9.8.1"
+  },
+  "pnpm": null,
+  "yarn": null
+}
